@@ -41,7 +41,7 @@ public class ReportProcessor {
         return resultados;
     }
 
-    public void generarReportes(List<ResultEvaluation> resultados, String rutaTxt, String rutaCsv) throws IOException {
+    public void generateReports(List<ResultEvaluation> resultados, String rutaTxt, String rutaCsv) throws IOException {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(rutaTxt))) {
             writer.write(" Reporte Detallado de Calidad de Datos \n\n");
             for (ResultEvaluation res : resultados) {
