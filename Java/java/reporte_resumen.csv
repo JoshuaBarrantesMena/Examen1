@@ -1,0 +1,6 @@
+variable,estado
+columna_normal_1,RECHAZADO
+columna_falla_outliers,RECHAZADO
+columna_falla_stddev,RECHAZADO
+columna_sensible_1,RECHAZADO
+columna_aprobada_2,RECHAZADO
