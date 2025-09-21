@@ -1,13 +1,18 @@
 package com.mycompany.java.model;
 
 public class OutliersRule implements QualityRule {
+    private final  int maxAllowed;
 
-    private int maxAllowed;
-
-    public OutliersRule() {
+    public OutliersRule(int maxAllowed) {
+        this.maxAllowed = maxAllowed;
     }
 
-    public metrica verify(metrica ColumnMetric) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    
+
+    public String  verify( ColumnMetric  metric) {
+        if (metric.getOutliers()> maxAllowed) {
+            return "El numero de valores atipicos("+ metric.getOutliers()+") se soprepasa del maximo de"+ maxAllowed ;
+        }
+        return "valor ok";
     }
 }
