@@ -1,13 +1,19 @@
 package com.mycompany.java.model;
 
+
+
 public class StandardDeviationRule implements QualityRule {
+    private final double maxAllowed;
 
-    private double maxAllowed;
-
-    public StandardDeviationRule() {
+    public StandardDeviationRule(double maxAllowed) {
+        this.maxAllowed = maxAllowed;
     }
 
-    public metrica verify(metrica ColumnMetric) {
-        throw new UnsupportedOperationException("Not supported yet.");
+    @Override
+    public String verify(ColumnMetric metric) {
+        if (metric.getStddev() > maxAllowed) {
+            return "Desviacion estandar (" + metric.getStddev() + ") excede el maximo de " + maxAllowed + ".";
+        }
+        return "OK";
     }
 }

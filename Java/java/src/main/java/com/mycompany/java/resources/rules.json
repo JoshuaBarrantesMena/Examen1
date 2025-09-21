@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "type": "outliers",
+      "parameter": 5
+    },
+    {
+      "type": "stddev",
+      "parameter": 20.5
+    }
+  ],
+  "map_variables": {
+    "column_sensitive_1": "sensitiva",
+    "column_sensitive_2": "sensitiva"
+  }
+}
