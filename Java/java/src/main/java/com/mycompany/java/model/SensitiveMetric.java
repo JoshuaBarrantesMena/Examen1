@@ -1,5 +1,4 @@
-import com.mycompany.java.model.ColumnMetric;
-import com.mycompany.java.model.QualityRule;
+package com.mycompany.java.model;
 import java.util.List;
 
 public class SensitiveMetric extends ColumnMetric {
