@@ -9,8 +9,8 @@ public class SensitiveMetric extends ColumnMetric {
     public String qualityEvaluate(List<QualityRule> rules) {
         for (QualityRule rule : rules) {
             String feedback = rule.verify(this);
-            if (!feedback.equals("ok")) {
-                return "rechazado (Sensitiva): " + feedback;
+            if (!feedback.equals("OK")) {
+                return "Rechazado (Sensitiva): " + feedback;
             }
         }
         return "Aprovado (Sensitiva)";

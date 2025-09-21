@@ -13,6 +13,6 @@ public class OutliersRule implements QualityRule {
         if (metric.getOutliers()> maxAllowed) {
             return "El numero de valores atipicos("+ metric.getOutliers()+") se soprepasa del maximo de"+ maxAllowed ;
         }
-        return "valor ok";
+        return "OK";
     }
 }

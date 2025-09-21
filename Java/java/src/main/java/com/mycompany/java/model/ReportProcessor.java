@@ -45,7 +45,7 @@ public class ReportProcessor {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(rutaTxt))) {
             writer.write(" Reporte Detallado de Calidad de Datos \n\n");
             for (ResultEvaluation res : resultados) {
-                writer.write("vareriable: " + res.getVariable() + "\n");
+                writer.write("variable: " + res.getVariable() + "\n");
                 writer.write("  Resultado: " + res.getResult() + "\n\n");
             }
             writer.write("Fin del Reporte ");

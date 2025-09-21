@@ -1,18 +1,18 @@
  Reporte Detallado de Calidad de Datos 
 
-vareriable: columna_normal_1
-  Resultado: Rechazado: valor ok OK
+variable: columna_normal_1
+  Resultado: APROBADO
 
-vareriable: columna_falla_outliers
-  Resultado: Rechazado: El numero de valores atipicos(12) se soprepasa del maximo de5 OK
+variable: columna_falla_outliers
+  Resultado: RECHAZADO: El numero de valores atipicos(12) se soprepasa del maximo de5
 
-vareriable: columna_falla_stddev
-  Resultado: Rechazado: valor ok Desviacion estandar (35.8) excede el maximo de 20.5.
+variable: columna_falla_stddev
+  Resultado: RECHAZADO: Desviacion estandar (35.8) excede el maximo de 20.5.
 
-vareriable: columna_sensible_1
-  Resultado: Rechazado: valor ok Desviacion estandar (21.0) excede el maximo de 20.5.
+variable: columna_sensible_1
+  Resultado: RECHAZADO: Desviacion estandar (21.0) excede el maximo de 20.5.
 
-vareriable: columna_aprobada_2
-  Resultado: Rechazado: valor ok OK
+variable: columna_aprobada_2
+  Resultado: APROBADO
 
 Fin del Reporte 
