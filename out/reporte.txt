@@ -1,0 +1,12 @@
+ Reporte Detallado de Calidad de Datos 
+
+variable: 1
+  Resultado: RECHAZADO: Desviacion estandar (44.72) excede el maximo de 20.5.
+
+variable: 2
+  Resultado: RECHAZADO: Desviacion estandar (43.64) excede el maximo de 20.5.
+
+variable: 3
+  Resultado: RECHAZADO: Desviacion estandar (48.51) excede el maximo de 20.5.
+
+Fin del Reporte 

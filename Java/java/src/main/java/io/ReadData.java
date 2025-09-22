@@ -19,7 +19,8 @@ public class ReadData {
             br.readLine(); 
 
             while ((linea = br.readLine()) != null) {
-                String[] datos = linea.split(",");
+                String lineaCorregida = linea.replace(',', '.');
+                String[] datos = lineaCorregida.split(";");
                 if (datos.length < 5) continue; 
 
                 String variable = datos[0].trim();
