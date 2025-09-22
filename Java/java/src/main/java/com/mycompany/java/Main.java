@@ -11,7 +11,7 @@ import com.mycompany.java.model.ReportProcessor;
  *
  * @author Jose Francisco Rodriguez Arias
  */
-public class Java {
+public class Main {
 
    public static void main(String[] args) {
      
